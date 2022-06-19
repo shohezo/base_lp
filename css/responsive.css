@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@media screen and (min-width: 1180px) {
+  /* ヘルパークラス */
+  .hp_pc-br {
+    display: none;
+  }
+}
+
+/*--------------------------------
+タブレット
+--------------------------------*/
+@media screen and (max-width: 959px) {
+  /* ヘルパークラス */
+  .hp_br-tb {
+    display: block;
+  }
+  .hp_br-pc {
+    display: none;
+  }
+  .hp_column_tb {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .hp_column_tb-reverse {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+}
+
+/*--------------------------------
+スマホ
+--------------------------------*/
+@media screen and (max-width: 519px) {
+  /* フォントサイズ */
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  body {
+    font-size: 1.4rem;
+    line-height: 1.6em;
+  }
+  .bl_drawer {
+    width: 300px;
+  }
+  .bl_drawerBtn {
+    left: -280px;
+  }
+  /* ヘルパークラス */
+  .hp_br-sp {
+    display: block;
+  }
+  .hp_column_sp {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .hp_column_sp-reverse {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+  }
+  .hp_mtLg {
+    margin-top: 80px;
+  }
+  .hp_mbLg {
+    margin-bottom: 80px;
+  }
+  .hp_mtMd {
+    margin-top: 50px;
+  }
+  .hp_mbMd {
+    margin-bottom: 50px;
+  }
+  .hp_mtSm {
+    margin-top: 20px;
+  }
+  .hp_mbSm {
+    margin-bottom: 20px;
+  }
+  .hp_ptLg {
+    padding-top: 80px;
+  }
+  .hp_pbLg {
+    padding-bottom: 80px;
+  }
+  .hp_ptMd {
+    padding-top: 50px;
+  }
+  .hp_pbMd {
+    padding-bottom: 50px;
+  }
+  .hp_ptSm {
+    padding-top: 20px;
+  }
+  .hp_pbSm {
+    padding-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
