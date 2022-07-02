@@ -3,13 +3,14 @@ html {
   font-size: 62.5%;
 }
 
+/* color変数 */
 body {
-  color: #141414;
-  font-size: 1.6rem;
+  color: #707070;
+  font-size: 1.3rem;
   counter-reset: number 0;
   line-height: 1.8;
   letter-spacing: 0.05em;
-  font-family: Avenir, "Helvetica neue", Helvetica, "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+  font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 
 a {
@@ -21,50 +22,13 @@ img {
   vertical-align: bottom;
 }
 
-/* フォントサイズ */
-h1 {
-  font-size: 4.4rem;
-}
-
-h2 {
-  font-size: 3.6rem;
-}
-
-h3 {
-  font-size: 2.6rem;
-}
-
-h4 {
-  font-size: 2.1rem;
-}
-
 /* color変数 */
-/* フォント変数 */
-/*--------------------------------
-コンポーネント
---------------------------------*/
-.ly_section {
-  padding-left: 4vw;
-  padding-right: 4vw;
-}
-
-.ly_inner {
-  max-width: 1180px;
-  margin: 0 auto;
-}
-
-/*--------------------------------
-ヘッダー
---------------------------------*/
-/*--------------------------------
-ファーストビュー
---------------------------------*/
 /* ヘルパークラス */
 .hp_reverse {
-  -webkit-box-orient: horizontal !important;
-  -webkit-box-direction: reverse !important;
-      -ms-flex-direction: row-reverse !important;
-          flex-direction: row-reverse !important;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .hp_br-pc {
@@ -354,4 +318,8 @@ h4 {
   margin-left: auto !important;
   margin-right: auto !important;
 }
-/*# sourceMappingURL=style.css.map */
+
+.hp_green {
+  color: #52b2ac;
+}
+/*# sourceMappingURL=common.css.map */
