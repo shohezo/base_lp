@@ -319,7 +319,16 @@ img {
   margin-right: auto !important;
 }
 
-.hp_green {
-  color: #52b2ac;
+.hp_blackfilter::after {
+  /* 透過させた黒を重ねる （擬似要素で実装）*/
+  background-color: rgba(0, 0, 0, 0.5);
+  /* どの範囲に重ねるかを指定 */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: " ";
+  z-index: 0;
 }
 /*# sourceMappingURL=common.css.map */
