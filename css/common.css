@@ -25,10 +25,7 @@ img {
 /* color変数 */
 /* ヘルパークラス */
 .hp_reverse {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .hp_br-pc {
@@ -269,38 +266,27 @@ img {
 }
 
 .hp_flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .hp_jcc {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .hp_jcsb {
-  -webkit-box-pack: justify !important;
-      -ms-flex-pack: justify !important;
-          justify-content: space-between !important;
+  justify-content: space-between !important;
 }
 
 .hp_jcsa {
-  -ms-flex-pack: distribute !important;
-      justify-content: space-around !important;
+  justify-content: space-around !important;
 }
 
 .hp_aic {
-  -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
+  align-items: center !important;
 }
 
 .hp_aife {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
 }
 
 .hp_clearfix::after {
@@ -330,5 +316,4 @@ img {
   left: 0;
   content: " ";
   z-index: 0;
-}
-/*# sourceMappingURL=common.css.map */
+}/*# sourceMappingURL=common.css.map */
